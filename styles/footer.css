@@ -1,0 +1,124 @@
+.footer .jump-to .items-main .items p {
+  color: #AAAAAA;
+}
+.footer .jump-to .back-to-top {
+  top: 0px;
+  right: 40px;
+}
+@media (min-width: 576px) {
+  .footer .jump-to .back-to-top {
+    top: -30px;
+    right: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .jump-to .back-to-top {
+    top: -55px;
+    right: 75px;
+  }
+}
+.footer .jump-to .items-main .items img {
+  width: 13px;
+}
+.footer-20 {
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+@media (min-width: 480px) {
+  .footer-20 {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 575px) {
+  .footer-20 {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .footer-20 {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 991px) {
+  .footer-20 {
+    font-size: 0.75rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-20 {
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+}
+.footer-40 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+@media (min-width: 480px) {
+  .footer-40 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 575px) {
+  .footer-40 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 767px) {
+  .footer-40 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 991px) {
+  .footer-40 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-40 {
+    font-size: 2.5em;
+    line-height: 2.5em;
+  }
+}
+.footer-medium {
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+@media (min-width: 480px) {
+  .footer-medium {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 575px) {
+  .footer-medium {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .footer-medium {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 991px) {
+  .footer-medium {
+    font-size: 0.75rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-medium {
+    font-size: 0.875em;
+    line-height: 1.5em;
+  }
+}

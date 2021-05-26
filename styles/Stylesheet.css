@@ -1,0 +1,20 @@
+@import '../fonts/font.css';
+@import '/styles/custom.css';
+@import '/styles/navigation.css';
+@import '/styles/home.css';
+@import '/styles/Gardenia.css';
+@import '/styles/footer.css';
+@import '/styles/about.css';
+@import '/styles/variables.css';
+body p {
+  font-family: 'HK Grotesk';
+}
+body span {
+  font-family: 'HK Grotesk';
+}
+.font-size {
+  font-size: 25px;
+}
+.container {
+  background: white;
+}

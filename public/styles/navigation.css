@@ -1,0 +1,28 @@
+.header-brand a {
+  font-family: 'HK Grotesk';
+  color: #323232 !important;
+}
+.header-brand .header-nav a {
+  font-family: 'HK Grotesk';
+  color: #323232 !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.header-brand .header-nav a.active {
+  color: #9CA72C !important;
+}
+.header-brand .header-nav p {
+  font-family: 'HK Grotesk';
+}
+.header-brand .header-nav.header-nav-2 img {
+  width: 30px;
+}
+.header-brand .header-nav.header-nav-2 .logreg .login {
+  color: #124426 !important;
+}
+.header-brand .header-nav.header-nav-2 .logreg .register {
+  color: #9CA72C !important;
+}
+.header-brand button {
+  outline: none;
+}

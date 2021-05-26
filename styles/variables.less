@@ -1,0 +1,156 @@
+// .for
+.for(@i, @n) {.-each(@i)}
+.for(@n)     when (isnumber(@n)) {.for(1, @n)}
+.for(@i, @n) when not (@i = @n)  {
+    .for((@i + (@n - @i) / abs(@n - @i)), @n);
+}
+// .for-each
+.for(@array)   when (default()) {.for-impl_(length(@array))}
+.for-impl_(@i) when (@i > 1)    {.for-impl_((@i - 1))}
+.for-impl_(@i) when (@i > 0)    {.-each(extract(@array, @i))}
+// Define your main colour palette using whatever naming system you like
+@white: #ffffff;
+@white-color: #ffffff;
+@black: #000;
+@black-color: #000;
+@covid-color: #323232;
+@color-1: #9CA72C !important;
+@color-2: #124426;
+@gardenia-color: #FAFBF5;
+@footer-color-1: #AAAAAA;
+@colors:
+    'white',
+    'white-color',
+    'black',
+    'black-color',
+    'covid-color',
+    'color-1',
+    'color-2',
+    'gardenia-color',
+    'footer-color-1';
+.theme{
+  .for(@colors); .-each(@color) {
+    @key: e(@color);
+    @value: @@key;
+    //BG theming
+    &.bg-@{key} {
+        background-color: @value;
+    }
+    &.bg-lg-@{key} {
+        @media(min-width: ~"991px"){
+            background-color: @value !important;
+        }
+    }
+    &.bg-md-@{key} {
+        @media(min-width: ~"767px"){
+            background-color: @value !important;
+        }
+    }
+    &.bg-sm-@{key} {
+        @media(min-width: ~"575px"){
+            background-color: @value !important;
+        }
+    }
+    &.bg-active-@{key}:active {
+        background-color: @value;
+    }
+    &.bg-before-@{key}:before {
+        background-color: @value;
+    }
+    &.bg-after-@{key}:after {
+        background-color: @value;
+    }
+    &.bg-hover-@{key}:hover {
+        background-color: @value;
+    }
+    &.bg-label-checked-@{key} {
+        &:checked + label {
+            background-color: @value;
+        }
+    }
+    //Color theming
+    &.color-@{key} {
+        color: @value;
+    }
+    &.color-lg-@{key} {
+        @media(min-width: ~"991px"){
+            color: @value !important;
+        }
+    }
+    &.color-md-@{key} {
+        @media(min-width: ~"767px"){
+            color: @value !important;
+        }
+    }
+    &.color-sm-@{key} {
+        @media(min-width: ~"575px"){
+            color: @value !important;
+        }
+    }
+    &.color-active-@{key}:active {
+        color: @value;
+    }
+    &.color-before-@{key}:before {
+        color: @value;
+    }
+    &.color-after-@{key}:after {
+        color: @value;
+    }
+    &.color-hover-@{key}:hover {
+        color: @value;
+    }
+    &.color-label-checked-@{key} {
+        &:checked + label {
+            color: @value;
+        }
+    }
+    //Box shadow
+    &.box-shadow-@{key} {
+        box-shadow: 0px 3px 10px @value;
+    }
+    //Fill for svgs
+    &.fill-@{key} {
+        fill: @value;
+    }
+    //Border theming
+    &.border-@{key} {
+        border-color: @value;
+    }
+    &.border-after-@{key}:after {
+        border-color: @value;
+    }
+    &.border-before-@{key}:before {
+        border-color: @value;
+    }
+    //Input field theming
+    &.input-focus-label-@{key}{
+        &:focus{
+            + label{
+                color:@value;
+            }
+        }
+    }
+    &.place-holder-@{key} {
+        ::-webkit-input-placeholder {
+          color: @value;
+        }
+        ::-moz-placeholder {
+          color: @value;
+        }
+        :-ms-input-placeholder {
+          color: @value;
+        }
+        :-moz-placeholder {
+          color: @value;
+        }
+    }
+  }
+}
+.loop (0) {}
+.loop (@index) when (@index > 0) {
+  .z-index-@{index} {
+    z-index: @index * 1;
+  }
+  .loop (@index - 1);
+}
+.loop(20);

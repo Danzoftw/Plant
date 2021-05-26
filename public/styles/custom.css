@@ -1,0 +1,175 @@
+.font-hk {
+  font-family: 'HK Grotesk';
+}
+.font-recoleta {
+  font-family: 'Recoleta';
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-normal {
+  font-weight: normal;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.very-small-font {
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+@media (min-width: 480px) {
+  .very-small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 575px) {
+  .very-small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .very-small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 991px) {
+  .very-small-font {
+    font-size: 0.625rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .very-small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+.small-font {
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+@media (min-width: 480px) {
+  .small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 575px) {
+  .small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .small-font {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 991px) {
+  .small-font {
+    font-size: 0.75rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .small-font {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+.medium-font {
+  font-size: 1rem;
+  line-height: 25px;
+}
+@media (min-width: 480px) {
+  .medium-font {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 575px) {
+  .medium-font {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .medium-font {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 991px) {
+  .medium-font {
+    font-size: 0.75rem;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .medium-font {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}
+.big-font {
+  font-size: 1.5rem;
+  line-height: 28px;
+}
+@media (min-width: 480px) {
+  .big-font {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+}
+@media (min-width: 575px) {
+  .big-font {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+}
+@media (min-width: 767px) {
+  .big-font {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+}
+@media (min-width: 991px) {
+  .big-font {
+    font-size: 1.75rem;
+    line-height: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-font {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+}
