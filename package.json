@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-  },
+    "start": "next start",
+    "prod": "next export"
+    },
   "author": "IoDroplet",
   "license": "ISC",
   "dependencies": {
