@@ -20,10 +20,11 @@ const PRODUCTS_QUERY = gql`query{
                     title
                     srcSet
                     sourceUrl
+                    mediaItemId
                 }
             name
-            }
         }
+    }
 }`;
 
 const Index = ( props ) => {
@@ -34,7 +35,7 @@ const Index = ( props ) => {
         <Layout>
             <Row className="product-container">
                 { products.length ? (
-                    products.map( product => <Product key={ product.id } product={ product } /> )
+                    products.map( product => <Product key={ product.image.mediaItemId } product={ product } /> )
                 ) : ''}
             </Row>
         </Layout>
@@ -42,7 +43,8 @@ const Index = ( props ) => {
 };
 
 Index.getInitialProps = async () => {
-    const result = await client.query( { query: PRODUCTS_QUERY })
+    const result = await client.query( { query: PRODUCTS_QUERY } );
+    
     return {
         products: result.data.products.nodes
     }

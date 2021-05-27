@@ -1,21 +1,23 @@
 import { Card, Container, Col, Row  } from 'react-bootstrap';
+import Link from 'next/link';
 
 const Product = ( props ) => {
 
   const { product } = props;
-
+console.warn('product', product);
   return (
         <Col sm={4} className="card mb-3">
           <h3 className="card-header">{ product.name }</h3>
-          <img 
-              src={ product.image.sourceUrl }
-              alt="Product image"
-          />
+          <Link as={`/product/${ product.slug }-${ product.image.mediaItemId}`} href={`/product?slug=${ product.slug }-${ product.image.mediaItemId}`}>
+            <a>
+              <img 
+                  src={ product.image.sourceUrl }
+                  alt="Product image"
+              />
+            </a>
+          </Link>
           <div className="">
-            <h6 className="card-subtitle text-muted text-center p-3">  { product.price } </h6>
-          </div>
-          <div className="view-product">
-            <p className="btn btn-secondary">View</p>
+            <h6 className="card-subtitle text-muted text-center p-3">  </h6>
           </div>
         </Col>
   );

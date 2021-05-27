@@ -15,7 +15,9 @@ const Navigation = () => {
         </div>
       
 <Navbar expand="lg" className="px-3 px-sm-2 px-xl-5 header-brand">
-    <Nav.Link href="/" className="navbar-brand font-weight-600 big-font">plantisserie</Nav.Link>
+    <Link href="/"> 
+        <a className="nav-link navbar-brand font-weight-600 big-font">Plantisserie</a>
+    </Link>
     <Navbar>
         <Nav.Link href="/" className="d-flex">
             <img

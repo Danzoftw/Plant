@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "name": "PLANTISSERIE",
+    "asias": "PLANTISSERIE",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ],
+    "routes":[
+        {
+            "src": "/product/(?<slug[^/]+)$",
+            "dest": "/product?slug=$slug"
+        }
+        
+    ]
+}
