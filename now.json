@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "name": "PLANTISSERIE",
-    "asias": "PLANTISSERIE",
+    "name": "Plantisserie",
+    "asias": "Plantisserie",
     "builds": [
         {
             "src": "package.json",

@@ -1,5 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
+import fbicon from '../images/fbicon.svg';
+
+
+
 
 const Footer = () => {
    return(
@@ -51,7 +55,7 @@ const Footer = () => {
                             <div className="items-main">
                                 <div className="items d-flex align-items-center">
                                     <img
-                                        src='/fbicon.svg'
+                                        src={fbicon}
                                     />
                                      <a href="www.google.com" className="theme color-footer-color-1 pl-2 theme very-small-font font-weight-400 my-2 text-decoration-none">Facebook</a>
                                 </div>
@@ -107,17 +111,17 @@ const Footer = () => {
                     <Col lg={6} md={12}>
                         <div className="payments d-flex justify-content-center justify-content-md-end pr-lg-5">
                             <div className="img-1 px-3">
-                                <Image
-                                    src='shiprocket.png'
+                                <img
+                                    src='../images/shiprocket.png'
                                 />
                             </div>
                             <div className="img-2 px-3">
-                                <Image
+                                <img
                                     src='.payu.png'
                                 />
                             </div>
                             <div className="img-3 px-3">
-                                <Image
+                                <img
                                     src='gpay.png'
                                 />
                             </div>
