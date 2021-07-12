@@ -1,0 +1,29 @@
+[
+  {
+    "image": "/images/archana.png",
+    "author": "Archana Desai",
+    "tag1": "Owner",
+    "tag2": "Green Thumber",
+    "tag3": "Nature Lover",
+    "para1": "Cras penatibus a elementum vel sed nunc, eget at. Eu ipsum quis ipsum sagittis, sagittis dui ut sem morbi. Sit urna sit non ut purus velit et, feugiat at. Urna, sagittis pretium ut curabitur arcu in morbi. Ridiculus nisl nisi sed quis. Tellus sit morbi molestie luctus quis non et vestibulum sit.Lacinia amet ultrices bibendum cursus ipsum sed facilisis. Etiam neque, sit libero elementum fringilla turpis accumsan. Ipsum ac in sociis arcu ullamcorper ut risus praesent elit.",
+    "para2": "Bold will look like this. Nulla neque, dictum vitae diam, gravida dis risus. Pellentesque facilisi odio feugiat leo at tempus et vulputate. Risus vestibulum suspendisse euismod lectus magnis ut integer."
+  },
+  {
+    "image": "/images/divya.png",
+    "author": "Divya Desai",
+    "tag1": "Product & Packaging",
+    "tag2": "Budding Biophile",
+    "tag3": "Daughter",
+    "para1": "Cras penatibus a elementum vel sed nunc, eget at. Eu ipsum quis ipsum sagittis, sagittis dui ut sem morbi. Sit urna sit non ut purus velit et, feugiat at. Urna, sagittis pretium ut curabitur arcu in morbi. Ridiculus nisl nisi sed quis. Tellus sit morbi molestie luctus quis non et vestibulum sit.Lacinia amet ultrices bibendum cursus ipsum sed facilisis. Etiam neque, sit libero elementum fringilla turpis accumsan. Ipsum ac in sociis arcu ullamcorper ut risus praesent elit.",
+    "para2": "Bold will look like this. Nulla neque, dictum vitae diam, gravida dis risus. Pellentesque facilisi odio feugiat leo at tempus et vulputate. Risus vestibulum suspendisse euismod lectus magnis ut integer."
+  },
+  {
+    "image": "/images/chris.png",
+    "author": "Chris Varela",
+    "tag1": "Social Media Expert",
+    "tag2": "Chlorophyllic Creator",
+    "tag3": "Part-Thymer",
+    "para1": "Cras penatibus a elementum vel sed nunc, eget at. Eu ipsum quis ipsum sagittis, sagittis dui ut sem morbi. Sit urna sit non ut purus velit et, feugiat at. Urna, sagittis pretium ut curabitur arcu in morbi. Ridiculus nisl nisi sed quis. Tellus sit morbi molestie luctus quis non et vestibulum sit.Lacinia amet ultrices bibendum cursus ipsum sed facilisis. Etiam neque, sit libero elementum fringilla turpis accumsan. Ipsum ac in sociis arcu ullamcorper ut risus praesent elit.",
+    "para2": "Bold will look like this. Nulla neque, dictum vitae diam, gravida dis risus. Pellentesque facilisi odio feugiat leo at tempus et vulputate. Risus vestibulum suspendisse euismod lectus magnis ut integer."
+  }
+]
